@@ -7,7 +7,7 @@ from data import MyDataset  # 假设你的数据集在 data.py 中
 from net import UNet  # 假设你的网络模型在 net.py 中
 from torchvision.utils import save_image
 
-# 设置命令行参数
+# 设置命令行参数（由GPT生成）
 def parse_args():
     parser = argparse.ArgumentParser(description="Train a UNet model")
     parser.add_argument('--data_path', type=str, default=r'D:\PY\dataset', help='Path to dataset')
