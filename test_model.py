@@ -8,7 +8,7 @@ from utils import keep_image_size_open_rgb  # 保证这两个函数在 utils.py 
 from torchvision import transforms
 from PIL import Image
 
-# 获取命令行传入的输入路径和输出路径
+# 获取命令行传入的输入路径和输出路径（此处为GPT生成）
 input_image_path = sys.argv[1]  # 第一个命令行参数
 output_path = sys.argv[2]  # 第二个命令行参数
 
