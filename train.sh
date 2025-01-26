@@ -9,7 +9,7 @@ LOG_FILE="logs/train_$(date +'%Y%m%d_%H%M%S').log"
 
 # 设置训练参数
 BATCH_SIZE=1
-EPOCHS=5
+EPOCHS=100
 #LEARNING_RATE=0.001
 DATA_PATH="./dataset"  # 数据集路径
 WEIGHT_PATH="./params/unet.pth"  # 权重文件保存路径
