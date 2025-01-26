@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#均由GPT生成
+
 # 设置环境变量（如果有需要）
 export CUDA_VISIBLE_DEVICES=0  # 使用GPU编号0（如果有多个GPU）
 
