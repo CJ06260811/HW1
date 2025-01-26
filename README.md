@@ -17,7 +17,7 @@ chmod +x setup_environment.sh
 4.运行test.py ,输入要处理的图片地址进行测试即可
 
 ###  脚本运行
-在train.sh中设置参数来进行模型的训练，初始参数为：
+1.在train.sh中设置参数来进行模型的训练，初始参数为：
 
 BATCH_SIZE=1
 
@@ -28,3 +28,9 @@ DATA_PATH="./dataset"  # 数据集路径
 WEIGHT_PATH="./params/unet.pth"  # 预训练模型路径
 
 SAVE_PATH="./train_image"  # 保存训练图像路径
+
+2.赋予脚本执行权限后：
+chmod +x train.sh
+
+执行训练脚本即可：
+./train.sh
